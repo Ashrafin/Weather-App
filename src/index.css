@@ -1,0 +1,20 @@
+/* body */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./assets/images/background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* media queries */
+@media (max-width:420px) {
+  .col-xs-12 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
