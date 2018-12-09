@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FormInputs from './components/FormInputs/FormInputs';
 import ForecastItem from './components/ForecastItem/ForecastItem';
+import API_Key from './key';
 
 // CSS dependancies
 import 'slick-carousel/slick/slick.css';
@@ -15,9 +16,6 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'slick-carousel/slick/slick.min.js';
 import VanillaTilt from 'vanilla-tilt';
 import $ from 'jquery';
-
-// API key
-const API_Key = "399b6964f358772d144333897a0f8e14";
 
 class App extends Component {
 
